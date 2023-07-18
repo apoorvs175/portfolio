@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        .navbar ul {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            list-style: none;
+            font-size: large;
+        }
+
+        li {
+            color: rgb(249, 9, 9);
+            font-style: none;
+        }
+
+        .contaniner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image {
+            display: inline-flex;
+            justify-content: center;
+            align-self: center;
+            padding-top: 7%;
+            padding-left: 20%;
+            height: 500px;
+            width: 350px;
+        }
+
+        .image img {
+            border: 5px solid rgb(255, 00, 00);
+            border-radius: 2rem;
+        }
+
+        .content {
+            padding-left: 5%;
+        }
+
+        .Name {
+            display: flex;
+            padding: 100px 100px;
+            font-style: normal;
+            color: black;
+            font-size: 30px;
+        }
+
+        .Name h1 {
+            margin-left: -80px;
+            color: rgb(252, 00, 00)
+        }
+
+        .intro {
+            display: inline-block;
+            padding-bottom: 80px;
+            text-align: center;
+        }
+
+        .intro p {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-style: italic;
+            border: 5px solid rgb(249, 66, 0);
+            border-radius: 2rem;
+            max-width: 600px;
+            padding: 3%;
+        }
+
+        .details {
+            display: flex;
+            gap: 30px;
+            height: 100px;
+            justify-content: space-around;
+        }
+
+        .details p {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: rgb(226, 0, 0);
+            background-color: #fffb01;
+            width: 100px;
+            border: 3px solid orangered;
+            border-radius: 50%;
+        }
+
+        .edu {
+            align-items: center;
+        }
+
+        @media (max-width: 1150px) and (min-width: 750px) {
+            .image {
+                margin-bottom: 500px;
+            }
+
+            .details {
+                margin-left: -500px;
+                margin-top: -36px;
+            }
+
+            .intro {
+                margin-left: -400px;
+                margin-top: 200px;
+            }
+
+            .Name h1 {
+                text-align: center;
+                margin-top: -200px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="box">
+            <nav class="navbar">
+                <ul>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>About Me</li>
+                    </a>
+                    <a href="#">
+                        <li>My Resume</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Me</li>
+                    </a>
+                    <a href="#">
+                        <li>Help</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="contaniner">
+                <div class="image"><img src="./photo.jpeg">
+                </div>
+                <div class="content">
+                    <div class="Name">
+                        <h1>Apoorv Vikram Singh</h1>
+                    </div>
+                    <span class="intro">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor explicabo, laborum porro
+                            atque optio consectetur vitae ullam quidem maxime. Incidunt quibusdam quisquam at eligendi
+                            itaque id fugit maxime dolor sapiente ullam deleniti, alias consequuntur eum non cupiditate
+                            perspiciatis esse iste.</p>
+                    </span>
+                    <div class="details">
+                        <p class="edu">
+                            Education</p>
+                        <p class="edu">
+                            Skills</p>
+                        <p class="edu">
+                            Contact</p>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="resume"> </div>
+            <div class="skills"> </div>
+            <div class="Contact"> </div>
+            <div class="Help"> </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
